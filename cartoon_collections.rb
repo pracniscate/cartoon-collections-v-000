@@ -1,9 +1,8 @@
 def roll_call_dwarves(names)
-  names = Array.new
-  %w(Doc Dopey Bashful Grumpy).each_with_index { |dwarf, index| }
-    name[dwarf] = index
-  }
-  names
+  names.each_with_index do |dwarf, index|
+    index += 1
+    puts "#{index}. #{dwarf}"
+  end
 end
 
 def summon_captain_planet# code an argument here
