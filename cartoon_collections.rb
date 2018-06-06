@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
   names = Array.new
-  names.each_with_index { |dwarf, index| }
+  %w(Doc Dopey Bashful Grumpy).each_with_index { |dwarf, index| }
     name[dwarf] = index
   }
   names
